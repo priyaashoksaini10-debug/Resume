@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <div class="header-box">
+        <div class="logo-box">
+            <img src="../image/logo.png" alt="College Logo">
+        </div>
+
+        <div class="college-name">
+            <h2>Chartered Institute of Technology (CIT)</h2>
+            <p>Admission Form 2026</p>
+        </div>
+    </div>
+
+    <h1>Student Admission Form</h1>
+
+      
+
+    <form>
+
+        <!-- Personal Information -->
+        <fieldset class="form-section">
+            <legend>Student Personal Information</legend>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Father Name</label>
+            <input type="text" placeholder="Enter father name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number">
+
+            <label>Date of Birth</label>
+            <input type="date">
+        </fieldset>
+
+
+        <!-- Gender Section -->
+        <fieldset class="form-section">
+            <legend>Select Gender</legend>
+
+            <div class="radio-group">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Other</label>
+            </div>
+        </fieldset>
+
+
+        <!-- Branch Section -->
+        <fieldset class="form-section">
+            <legend>Choose Your Branch</legend>
+
+            <div class="radio-group">
+                <label><input type="radio" name="branch"> CSE</label>
+                <label><input type="radio" name="branch"> IT</label>
+                <label><input type="radio" name="branch"> ECE</label>
+                <label><input type="radio" name="branch"> Mechanical</label>
+            </div>
+        </fieldset>
+
+
+        <!-- Document Upload -->
+        <fieldset class="form-section">
+            <legend>Upload Required Documents</legend>
+
+            <label>Upload Signature</label>
+            <input type="file">
+
+            <label>Upload Aadhaar Card</label>
+            <input type="file">
+
+            <label>Upload Passport Size Photo</label>
+            <input type="file">
+
+            <label>Upload 10th Marksheet</label>
+            <input type="file">
+
+            <label>Upload 12th Marksheet</label>
+            <input type="file">
+        </fieldset>
+
+        <button type="submit">Submit Form</button>
+
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 30px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.form-section {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: bold;
+    color: #34495e;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.radio-group {
+    margin-top: 10px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+    gap: 0px;                     
+    /* margin-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px; */
+}
+
+.logo-box {
+    flex-shrink: 0;
+}
+
+.logo-box img {
+    width: 200px;   
+    height: 200px;
+    object-fit: contain;
+}
+
+.college-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -10px;
+}
+
+.college-name h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.college-name p {
+    margin-top: 4px;
+}
